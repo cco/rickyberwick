@@ -39,6 +39,18 @@ body .ricky-blog {
 }
 
 .ricky-blog .ricky-blog__posts {
+  max-width: 1568px;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.ricky-blogalt {
   max-width: 900px;
   padding: 0;
   display: -webkit-flex;
@@ -50,7 +62,6 @@ body .ricky-blog {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
-
 .ricky-blog.mdl-layout .mdl-layout__content {
   padding-top: 230px;
   position: relative;
@@ -231,6 +242,10 @@ body .ricky-blog {
 }
 .ricky-blog .discord .mdl-card__media {
   background-image: url('images/discord.png');
+  background-color: black;
+}
+.ricky-blog .vidme .mdl-card__media {
+  background-image: url('images/vidme.png');
   background-color: black;
 }
 .ricky-blog .ricky-blog__posts > .ricky-nav {
