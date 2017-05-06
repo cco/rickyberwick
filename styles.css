@@ -236,6 +236,18 @@ body .ricky-blog {
   background-image: url('images/youtube.png');
   background-color: black;
 }
+.ricky-blog .fanfiber .mdl-card__media {
+  background-image: url('images/merch.jpg');
+  background-color: black;
+}
+.ricky-blog .instagram .mdl-card__media {
+  background-image: url('images/instagram.jpg');
+  background-color: black;
+}
+.ricky-blog .contact .mdl-card__media {
+  background-image: url('images/contact.jpg');
+  background-color: black;
+}
 .ricky-blog .facebook .mdl-card__media {
   background-image: url('images/facebook.png');
   background-color: black;
